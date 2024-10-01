@@ -1,3 +1,5 @@
+# DATE
+# EXP.NO: 4 
 # Find the GCD of two numbers
 
 ## AIM:
@@ -17,13 +19,23 @@ To write a program to find the GCD of two numbers using function.
 ```
 /*
 Program to find the gcd of two number using function.
-Developed by: 
-RegisterNumber:  
+Developed by: RUDESH KANNA R
+RegisterNumber:  24900303
+def gcd():
+    n1,n2=int(input()),int(input())
+    if n1>n2:
+        small=n2
+    else:
+        small=n1
+    for i in range(1,small+1):
+        if(n1%i==0 and n2%i==0):
+            hcf=i
+    print(f"GCD of two numbers is: {hcf}")
 */
 ```
 
 ## Output:
-
+![image](https://github.com/user-attachments/assets/823269ec-7275-43b4-885f-4b15f17c04ba)
 
 
 ## Result:
